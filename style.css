@@ -1,0 +1,38 @@
+body {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.about{
+    padding: 0px 600px 0px 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.accomplishments {
+    padding: 0px 600px 0px 300px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.future {
+    padding: 0px 600px 0px 300px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+h1 {
+    padding-left: 300px;
+}
+
+h2, h3 {
+    margin: 5px 0px;
+}
+
+.ul1 {
+    margin-bottom: 5px;
+
