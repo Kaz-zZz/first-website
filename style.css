@@ -2,27 +2,15 @@ body {
     font-family: 'Roboto', 'Arial', sans-serif;
     display: flex;
     flex-direction: column;
+    font-size: 1.5rem;
+    
     
 }
 
-.about{
+h1, .about, .accomplishments, .future {
     padding: 0px 600px 0px 300px;
     display: flex;
     flex-direction: column;
-}
-
-.accomplishments {
-    padding: 0px 600px 0px 300px;
-    display: flex;
-    flex-direction: column;
-    
-}
-
-.future {
-    padding: 0px 600px 0px 300px;
-    display: flex;
-    flex-direction: column;
-    
 }
 
 h1 {
@@ -36,3 +24,22 @@ h2, h3 {
 .ul1 {
     margin-bottom: 5px;
 }
+
+
+@media (max-width: 1000px) {
+    body {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    
+    max-height: 100%;
+    }
+
+    h1, .about, .accomplishments, .future {
+    padding: 0px 50px 0px 50px;
+    display: flex;
+    flex-direction: column;
+    }
+    
+}
+
